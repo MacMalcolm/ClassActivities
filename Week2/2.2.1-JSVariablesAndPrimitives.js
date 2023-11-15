@@ -23,12 +23,12 @@ let var1 = 1;
 let var2 = "two";
 let var3 = false;
 
-console.log(typeof{var1});
-console.log(typeof{var2});
+console.log(typeof var1);
+console.log(typeof var2);
 
-var1 =2;
+var1 = 2;
 
-console.log(typeof{var1});
+console.log(typeof var1);
 
 
-console.log("Hello, my name is " + {myName} + ", and I am learning " + {myLanguage} + ". I have been practicing for only " +  {var2} + " weeks, so my status as a master is: " + {var3} + ".");
+console.log("Hello, my name is " + myName + ", and I am learning " + myLanguage + ". I have been practicing for only " +  var2 + " weeks, so my status as a master is: " + var3 + ".");
